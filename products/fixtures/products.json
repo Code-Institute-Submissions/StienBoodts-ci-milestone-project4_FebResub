@@ -1,0 +1,223 @@
+[
+    {
+        "pk":1,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH1",
+            "name":"Signature Bobble Hat - Blue",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":5,
+            "image":"/products/blue1.jpg"
+        }
+    },
+    {
+        "pk":2,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH2",
+            "name":"Signature Bobble Hat - Aqua",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":5,
+            "image":"/products/aqua.jpg"
+        }
+    },
+    {
+        "pk":3,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH3",
+            "name":"Signature Bobble Hat - Blue Chalk",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":4.7,
+            "image":"/products/bluechalk.jpg"
+        }
+    },
+    {
+        "pk":4,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH4",
+            "name":"Signature Bobble Hat - Blue Duo",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":4.3,
+            "image":"/products/blueduo.jpg"
+        }
+    },
+    {
+        "pk":5,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH5",
+            "name":"Signature Bobble Hat - Blue Speckled",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":4.6,
+            "image":"/products/bluespeckled.jpg"
+        }
+    },
+    {
+        "pk":6,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH6",
+            "name":"Signature Bobble Hat - Blue Stripe",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":4.6,
+            "image":"/products/bluestripe.jpg"
+        }
+    },
+    {
+        "pk":7,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH7",
+            "name":"Signature Bobble Hat - Green Duo",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":4.6,
+            "image":"/products/greenduo.jpg"
+        }
+    },
+    {
+        "pk":8,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH8",
+            "name":"Signature Bobble Hat - Green/Pink",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":4.6,
+            "image":"/products/greenpink.jpg"
+        }
+    },
+    {
+        "pk":9,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH9",
+            "name":"Signature Bobble Hat - Grey",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":5,
+            "image":"/products/grey.jpg"
+        }
+    },
+    {
+        "pk":10,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH10",
+            "name":"Hossegor Headband - Mauve",
+            "description":"The perfect companion for colder days. Keep your ears covered from the cold wind while changing or relaxing on the beach or a café patio. Headbands are great if you like to wear your hair in a pony tail or bun, without getting chilly ears. All headbands are handmade in Wales by Seafoam founder Stien, using 100% Peruvian Highland Wool. This great quality wool is non itchy and will keep your ears nice and warm.",
+            "price":28,
+            "category":2,
+            "rating":4.6,
+            "image":"/products/hbmauve.jpg"
+        }
+    },
+    {
+        "pk":11,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH11",
+            "name":"Hossegor Headband - Pink",
+            "description":"The perfect companion for colder days. Keep your ears covered from the cold wind while changing or relaxing on the beach or a café patio. Headbands are great if you like to wear your hair in a pony tail or bun, without getting chilly ears. All headbands are handmade in Wales by Seafoam founder Stien, using 100% Peruvian Highland Wool. This great quality wool is non itchy and will keep your ears nice and warm.",
+            "price":28,
+            "category":2,
+            "rating":5,
+            "image":"/products/hbpink.jpg"
+        }
+    },
+    {
+        "pk":12,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH12",
+            "name":"Seafoam Signature Bobble Hat - Light Grey",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":5,
+            "image":"/products/lightgrey.jpg"
+        }
+    },
+    {
+        "pk":13,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH13",
+            "name":"Seafoam Signature Bobble Hat - Purple Chalk",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":4.5,
+            "image":"/products/purplechalk.jpg"
+        }
+    },
+    {
+        "pk":14,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH14",
+            "name":"Seafoam Signature Bobble Hat - Sand",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, chunky wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":5,
+            "image":"/products/sand.jpg"
+        }
+    },
+    {
+        "pk":15,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH15",
+            "name":"Bidart Beanie - Aqua",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":5,
+            "image":"/products/thinaqua.jpg"
+        }
+    },
+    {
+        "pk":16,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH16",
+            "name":"Belhara Beanie - Aqua",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":4.3,
+            "image":"/products/thinpinkblue.jpg"
+        }
+    },
+    {
+        "pk":17,
+        "model":"products.product",
+        "fields":{
+            "sku":"AW23BH17",
+            "name":"Seafoam Signature Bobble Hat - Yellow",
+            "description":"Keep your ears covered from the cold winter wind in between sessions, while changing or relaxing on the beach or a café patio in this super warm woolly hat. All beanies are handmade in Wales by Seafoam founder Stien, knit using 100% Peruvian Highland Wool. The non-itchy, high quality, wool will keep you warm, that's for sure!",
+            "price":35,
+            "category":1,
+            "rating":4.3,
+            "image":"/products/yellow.jpg"
+        }
+    }
+]

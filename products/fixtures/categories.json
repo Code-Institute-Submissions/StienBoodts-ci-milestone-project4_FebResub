@@ -1,0 +1,26 @@
+[
+    {
+        "pk":1,
+        "model":"products.category",
+        "fields":{
+            "name":"bobblehats",
+            "friendly_name":"Bobble Hats"
+        }
+    },
+    {
+        "pk":2,
+        "model":"products.category",
+        "fields":{
+            "name":"headbands",
+            "friendly_name":"Headbands"
+        }
+    },
+    {
+        "pk":3,
+        "model":"products.category",
+        "fields":{
+            "name":"beanies",
+            "friendly_name":"Beanies"
+        }
+    }
+    ]
