@@ -5,7 +5,7 @@ html {
 body {
     background: url('/media/home/homepage_bg.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 165px);
     color: #555;
     font-family: 'Comfortaa';
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .hero-text {
-    margin-top: 180px;
+    margin-top: 30px;
 }
 
 .color-picker {
@@ -107,6 +107,17 @@ body {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 165px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
     }
 }
