@@ -17,10 +17,10 @@
                 Shop
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Bobble Hats</a>
-                <a href="" class="dropdown-item">Headbands</a>
-                <a href="" class="dropdown-item">Kids</a>
-                <a href="" class="dropdown-item">All Knits</a>
+                <a href="{% url 'products' %}?category=bobblehats" class="dropdown-item">Bobble Hats</a>
+                <a href="{% url 'products' %}?category=headbands" class="dropdown-item">Headbands</a>
+                <a href="{% url 'products' %}?category=beanies" class="dropdown-item">Beanies</a>
+                <a href="{% url 'products' %}?category=bobblehats,headbands,beanies" class="dropdown-item">All Knits</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Bottles</a>
-                <a href="" class="dropdown-item">Cups</a>
-                <a href="" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?category=bottles" class="dropdown-item">Bottles</a>
+                <a href="{% url 'products' %}?category=cups" class="dropdown-item">Cups</a>
+                <a href="{% url 'products' %}?category=bottles,cups" class="dropdown-item">All Accessories</a>
             </div>
         </li>
 
