@@ -97,6 +97,8 @@ The seller can showcase her handmade knitwear.
     - Google fonts was used to import the 'Montserrat' and 'Nothing You Could Do' (logo) fonts into the style.css file which are used on all pages.
 1. [Elephant SQL](https://www.elephantsql.com)
     - Elephant SQL is used to host the database
+1. [AWS](https://aws.amazon.com)
+    - Storing static files like images and files
 
 
 ## Testing 
