@@ -181,21 +181,18 @@ This project was developed on Gitpod, committed to Git and pushed onto the [Gith
 4. log into heroku in the terminal
 5. enter heroku config:set DISABLE_COLLECTSTATIC=1 --app with app name added to the end
 6. Add host name to Heroku app in allowed host in settings.py (also add local host)
-7. 
+7. Commit and push changes to gitpod
+8. initialise heroku app: heroku git:remote -a and name of app
+9. push changes to heroku main
 
- 
+
+##### set up automatic deployment in Heroku when pushing to Github
+1. Go to app in Heroku and navigate to deploy tab
+2. Click Connect to github, Search for the repo and Click Connect
+3. Enable automatic deploys
 
 
-To deploy the website from the repository onto Github Pages the following steps were taken:
 
-1. log into Github
-2. from the list of repositories, choose **StienBoodts/horizon-animatie-CI-MP2**.
-3. Navigate to **Settings** at the top of the repository.
-4. Choose **Pages** from the menu on the left of the page.
-5. In the Source Section, select **Branch: main** in the drop down menu.
-6. Leave **/(root)** selected in the next drop down menu.
-7. Press **Save**
-8. The page will refresh and the **link to the deployed website** will appear at the top.
 
 ## Credits & Resources
 ---
@@ -205,6 +202,8 @@ To deploy the website from the repository onto Github Pages the following steps 
 
 1. [Code Institute](https://codeinstitute.net/)
     - this project was based on the walkthrough project from Code Institute.
+1. [Slack Community]()
+    - General trouble shooting to fix bugs in development
 1. [https://stackoverflow.com/](https://stackoverflow.com/)
     - General searches to solve issues
 
