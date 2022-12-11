@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-md-6 col-12 hero-text">
+                <h1 class="display-6 logo-font text-black">
+                    About Us
+                </h1>
+                <p class="about-paragraph">
+                    Our knits are all lovingly handmade by founder Stien in Wales or Belgium,
+                    using Peruvian Highland Wool. The highest quality and non-itchy wool.
+                    When you buy a knit you support a small business and above all slow-fashion.
+                    Thank you so much for your support!
+                    If you'd have any questions or custom order requests, 
+                    don't hesitate to get in touch via the email below. 
+                </p>
+                <br>
+                <h1 class="display-6 logo-font text-black">
+                    Get in Touch
+                </h1>
+                <p>Email us: seafoam@winter.com</p>
+            </div>
+            <div class="col-12 col-md-5">
+                <img src="{{ MEDIA_URL }}stien.jpg" class="about-image mx-auto align-middle">
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -14,7 +14,7 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Shop
+                Collections
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
                 <a href="{% url 'products' %}?category=bobblehats" class="dropdown-item">Bobble Hats</a>
@@ -23,27 +23,9 @@
                 <a href="{% url 'products' %}?category=bobblehats,headbands,beanies" class="dropdown-item">All Knits</a>
             </div>
         </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Accessories
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=bottles" class="dropdown-item">Bottles</a>
-                <a href="{% url 'products' %}?category=cups" class="dropdown-item">Cups</a>
-                <a href="{% url 'products' %}?category=bottles,cups" class="dropdown-item">All Accessories</a>
-            </div>
-        </li>
-
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="aboutus-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="{% url 'about' %}" class="logo-font font-weight-bold nav-link text-black mr-5">
                 About Us
-            </a>
-        </li>
-
-        <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="contact-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Contact
             </a>
         </li>
     </ul>
