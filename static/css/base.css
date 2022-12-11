@@ -31,7 +31,7 @@ body {
 }
 
 .shop-now-button {
-    background: #B789F0;
+    background: black;
     color: white;
     min-width: 260px;
 }
@@ -126,10 +126,10 @@ input[name='q']::placeholder {
     color: #aab7c4
 }
 
-.about-image {
+/* .about-image {
     height: 700px;
     overflow: hidden;
-}
+} */
 
 /* ------------------------------- bootstrap toasts */
 
@@ -313,5 +313,12 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 440px) {
+    .header-container {
+        padding-top: 250px;
     }
 }
