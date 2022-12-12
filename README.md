@@ -3,7 +3,7 @@
 This website offers visitors the chance to browse and buy knitwear.
 The seller can showcase her handmade knitwear.
 
-<img src="" width="500"/><br>
+<img src="media/mockup.jpg" width="500"/><br>
 
 ## User Experience
 ---
