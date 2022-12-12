@@ -25,15 +25,6 @@ The seller can showcase her handmade knitwear.
 
 ### _Design_
 
-- #### **Colour Scheme**
-
-    <img src="" width="500"/><br>
-   
-
-- #### **Typography**
-
-    <strong>Headings:</strong> Satisfy, [Google Fonts](https://fonts.google.com/). A bit playful and fun to match the fun activities.<br>
-    <strong>Main font:</strong> Roboto, [Google Fonts](https://fonts.google.com/). Clear, legible without being too formal looking.
 
 - #### **Wireframes**
 
