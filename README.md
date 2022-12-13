@@ -1,7 +1,8 @@
 # Seafoam Winter E-commerce Store
 
-This website offers visitors the chance to browse and buy knitwear.
-The seller can showcase her handmade knitwear.
+This website offers visitors the chance to browse and buy knitwear made by Belgian/Welsh knitter Stien.
+The seller can showcase her handmade knitwear and offer a wide choice range to the user.
+This website was based on the walk through project 'Boutique Ado' by [Code Institute](https://codeinstitute.net/).
 
 <img src="media/mockup.jpg" width="500"/><br>
 
@@ -13,10 +14,10 @@ The seller can showcase her handmade knitwear.
 - #### **First Time Visitor Goals:**
 1. As a first time user, I want to find out the purpose of the website immediately.
 2. As a first time user, I want to find out what products are available.
-3. As a first time user, I want to find out how I can buy the products.
+3. As a first time user, I want to find out how I can buy the products and buy them.
 
 - #### **Returning Visitor Goals:**
-1. As a returning user, I want to find out how I can buy more products.
+1. As a returning user, I want to find out how I can search and filter for specific products.
 2. As a returning user, I want to access my profile and view previous orders.
 3. As a returning user, I want to access my profile and edit info kept on file.
 
@@ -26,27 +27,59 @@ The seller can showcase her handmade knitwear.
 ### _Design_
 
 
-- #### **Wireframes**
-
-    <img src="media/Wireframe Homepage.png" width="500"/><br>
-
-    Wireframes for homepage.
-    Made with []()).
-
-    During the developing process a few changes were made to the lay-out.
-
 ## Features
 ---
 
 ### _Existing Features_
 
+- __Clear Navigation and purpose__
+
+    <img src="media/screen3.png" width="500"/><br>
+
+    Covering user stories:
+    1. As a first time user, I want to find out the purpose of the website immediately.
+
+
+- __Product Browsing and Filtering__
+
+    The User can browse the products in many different ways. By collection, filtering and searching.
+
+    <img src="media/screen4.png" width="500"/><br>
+    <img src="media/screen5.png" width="500"/><br>
+
+    Covering user stories:
+    1. As a returning user, I want to find out how I can search and filter for specific products.
+
+
 - __User Accounts__
 
-    Users can log in to view address details and previous orders
+    Users can log in to view their profile address details and previous orders
 
-- __Bag__
+    <img src="media/screen1.png" width="500"/><br>
+
+    Covering user stories:
+    2. As a returning user, I want to access my profile and view previous orders.
+    3. As a returning user, I want to access my profile and edit info kept on file. 
+
+    <img src="media/screen2.png" width="500"/><br>
+
+
+- __Shopping Bag__
 
     Users can add products to bag and can view a snippet of the bag whenever new products are added.
+    <img src="media/screen6.png" width="500"/><br>
+
+    Covering user stories:
+    3. As a first time user, I want to find out how I can buy the products and buy them.
+
+     <img src="media/screen7.png" width="500"/><br>
+
+
+- __About Page__
+
+    1. As a frequent user, I want to find out how I can get in touch with the maker for custom orders.
+
+     <img src="media/screen8.png" width="500"/><br>
 
 
 ### _Features Left To Implement_
@@ -76,8 +109,6 @@ The seller can showcase her handmade knitwear.
     - Django was used for the structure of the backend.
 1. [Bootstrap:](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
     - Bootstrap was used on parts of the website to make them responsive.
-1. [Adobe Color:](https://color.adobe.com/)
-    - Adobe Color was used to select the colour scheme and test its accessibility.
 1. [Gitpod:](https://gitpod.io/workspaces)
     - Gitpod workspaces was used to create and edit code and push them onto the Github repo.
 1. [GitHub:](https://github.com/)
@@ -98,30 +129,7 @@ The seller can showcase her handmade knitwear.
 - [HTML](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - [CSS](https://jigsaw.w3.org/css-validator/validator)
 - [JSLint](https://www.jslint.com/)
-
-### _Validator Testing_
-
-- #### **HTML**
-
-    - Error: 
-
-- #### **CSS**
-
-    - Error: 
-
-- #### **JSLint**
-
-
-
-### _Testing User Stories from User Experience (UX) Section_
-
-- #### **First Time Visitor Goals:**
-
-
-- #### **Returning Visitor Goals:**
-
-
-- #### **Frequent User Goals:**
+- Manual testing
 
 ## Deployment
 ---
@@ -185,8 +193,6 @@ This project was developed on Gitpod, committed to Git and pushed onto the [Gith
 3. Enable automatic deploys
 
 
-
-
 ## Credits & Resources
 ---
 
@@ -194,7 +200,7 @@ This project was developed on Gitpod, committed to Git and pushed onto the [Gith
 
 
 1. [Code Institute](https://codeinstitute.net/)
-    - this project was based on the walkthrough project from Code Institute.
+    - this project was based on the walkthrough project Boutique Ado from Code Institute.
 1. [Slack Community]()
     - General trouble shooting to fix bugs in development
 1. [https://stackoverflow.com/](https://stackoverflow.com/)
