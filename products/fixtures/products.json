@@ -9,7 +9,7 @@
             "price":35,
             "category":1,
             "rating":5,
-            "image":"/products/blue1.jpg"
+            "image":"blue1.jpg"
         }
     },
     {
@@ -22,7 +22,7 @@
             "price":35,
             "category":1,
             "rating":5,
-            "image":"/products/aqua.jpg"
+            "image":"aqua.jpg"
         }
     },
     {
@@ -35,7 +35,7 @@
             "price":35,
             "category":1,
             "rating":4.7,
-            "image":"/products/bluechalk.jpg"
+            "image":"bluechalk.jpg"
         }
     },
     {
@@ -48,7 +48,7 @@
             "price":35,
             "category":1,
             "rating":4.3,
-            "image":"/products/blueduo.jpg"
+            "image":"blueduo.jpg"
         }
     },
     {
@@ -61,7 +61,7 @@
             "price":35,
             "category":1,
             "rating":4.6,
-            "image":"/products/bluespeckled.jpg"
+            "image":"bluespeckled.jpg"
         }
     },
     {
@@ -74,7 +74,7 @@
             "price":35,
             "category":1,
             "rating":4.6,
-            "image":"/products/bluestripe.jpg"
+            "image":"bluestripe.jpg"
         }
     },
     {
@@ -87,7 +87,7 @@
             "price":35,
             "category":1,
             "rating":4.6,
-            "image":"/products/greenduo.jpg"
+            "image":"greenduo.jpg"
         }
     },
     {
@@ -100,7 +100,7 @@
             "price":35,
             "category":1,
             "rating":4.6,
-            "image":"/products/greenpink.jpg"
+            "image":"greenpink.jpg"
         }
     },
     {
@@ -113,7 +113,7 @@
             "price":35,
             "category":1,
             "rating":5,
-            "image":"/products/grey.jpg"
+            "image":"grey.jpg"
         }
     },
     {
@@ -126,7 +126,7 @@
             "price":28,
             "category":2,
             "rating":4.6,
-            "image":"/products/hbmauve.jpg"
+            "image":"hbmauve.jpg"
         }
     },
     {
@@ -139,7 +139,7 @@
             "price":28,
             "category":2,
             "rating":5,
-            "image":"/products/hbpink.jpg"
+            "image":"hbpink.jpg"
         }
     },
     {
@@ -152,7 +152,7 @@
             "price":35,
             "category":1,
             "rating":5,
-            "image":"/products/lightgrey.jpg"
+            "image":"lightgrey.jpg"
         }
     },
     {
@@ -165,7 +165,7 @@
             "price":35,
             "category":1,
             "rating":4.5,
-            "image":"/products/purplechalk.jpg"
+            "image":"purplechalk.jpg"
         }
     },
     {
@@ -178,7 +178,7 @@
             "price":35,
             "category":1,
             "rating":5,
-            "image":"/products/sand.jpg"
+            "image":"sand.jpg"
         }
     },
     {
@@ -191,7 +191,7 @@
             "price":35,
             "category":1,
             "rating":5,
-            "image":"/products/thinaqua.jpg"
+            "image":"thinaqua.jpg"
         }
     },
     {
@@ -204,7 +204,7 @@
             "price":35,
             "category":1,
             "rating":4.3,
-            "image":"/products/thinpinkblue.jpg"
+            "image":"thinpinkblue.jpg"
         }
     },
     {
@@ -217,7 +217,7 @@
             "price":35,
             "category":1,
             "rating":4.3,
-            "image":"/products/yellow.jpg"
+            "image":"yellow.jpg"
         }
     }
 ]

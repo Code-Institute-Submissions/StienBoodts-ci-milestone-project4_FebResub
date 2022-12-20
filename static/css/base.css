@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background: url('/media/home/homepage_bg.jpg') no-repeat center center fixed;
+    background: url('/media/homepage_bg.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 165px);
     color: #555;
