@@ -17,6 +17,7 @@ def all_products(request):
     categories = None
     sort = None
     direction = None
+    colours = None
 
     if 'sort' in request.GET:
             sortkey = request.GET['sort']
@@ -38,6 +39,11 @@ def all_products(request):
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
+        if 'colours' in request.GET:
+            colours = request.GET['colours'].split(',')
+            products = products.filter(colour__in=colours)
+            colours = Product.objects.filter(colour__in=colours)
+
 
         if 'q' in request.GET:
             query = request.GET['q']
@@ -54,6 +60,7 @@ def all_products(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        'current_colours': colours,
     }
 
     return render(request, 'products/products.html', context)
