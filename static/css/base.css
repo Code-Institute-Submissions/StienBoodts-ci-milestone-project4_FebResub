@@ -31,8 +31,8 @@ body {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     min-width: 260px;
 }
 
@@ -88,9 +88,9 @@ body {
 }
 
 .wool-color {
-    width: 70px;
+    width: 65px;
     border-radius: 35px;
-    /* padding: 0px !important; */
+    margin-left: 25px;
 }
 
 .overlay {
@@ -126,10 +126,6 @@ input[name='q']::placeholder {
     color: #aab7c4
 }
 
-/* .about-image {
-    height: 700px;
-    overflow: hidden;
-} */
 
 /* ------------------------------- bootstrap toasts */
 
