@@ -87,6 +87,10 @@ body {
     margin-bottom: 0 !important;
 }
 
+.color-picker-products {
+    font-size: 15px;
+}
+
 .wool-color {
     width: 65px;
     border-radius: 35px;
@@ -299,6 +303,7 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 165px;
     }
+
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -310,11 +315,31 @@ input[name='q']::placeholder {
     body {
         height: calc(100vh - 116px);
     }
+
+    .wool-color {
+        width: 50px;
+    }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 440px) {
     .header-container {
         padding-top: 250px;
+    }
+
+    .color-picker {
+        height: 120px;
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .color-picker-title {
+        font-size: 15px;
+    }
+    
+    .wool-color {
+        margin-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 }

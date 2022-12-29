@@ -1,0 +1,13 @@
+<div class="color-picker bg-white col-md-8 offset-md-2 pt-1">
+    <div class="row">
+        <div class="col-6 offset-3 text-center mb-1"><p class="color-picker-products">Pick your colour:</p></div>
+    </div>
+    <div class="row">
+        <div class="col-2 mx-auto p-0"><a href="{% url 'products' %}?colours=blue"><img src="{{ MEDIA_URL }}bluewool.jpg" class="wool-color"></a></div>
+        <div class="col-2 mx-auto p-0"><a href="{% url 'products' %}?colours=yellow"><img src="{{ MEDIA_URL }}yellowwool.jpg" class="wool-color"></a></div>
+        <div class="col-2 mx-auto p-0"><a href="{% url 'products' %}?colours=purple"><img src="{{ MEDIA_URL }}purplewool.jpg" class="wool-color"></a></div>
+        <div class="col-2 mx-auto p-0"><a href="{% url 'products' %}?colours=pink"><img src="{{ MEDIA_URL }}pinkwool.jpg" class="wool-color"></a></div>
+        <div class="col-2 mx-auto p-0"><a href="{% url 'products' %}?colours=aqua"><img src="{{ MEDIA_URL }}aquawool.jpg" class="wool-color"></a></div>
+        <div class="col-2 mx-auto p-0"><a href="{% url 'products' %}?colours=grey"><img src="{{ MEDIA_URL }}greywool.jpg" class="wool-color"></a></div>
+    </div>
+</div>
