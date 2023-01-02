@@ -46,6 +46,7 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
 
     <img src="media/screen4.png" width="500"/><br>
     <img src="media/screen5.png" width="500"/><br>
+    <img src="media/screen9.png" width="500"/><br>
 
     Covering user stories:
     1. As a returning user, I want to find out how I can search and filter for specific products.
@@ -83,10 +84,6 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
 
 
 ### _Features Left To Implement_
-
-- __Shop by colour__
-
-    The original plan was to have a colour picker feature, but due to lack of time this wasn't implemented.
 
 - __Custom order form__
 
@@ -127,9 +124,12 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
 ---
 
 - [HTML](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    No errors, with exception of template logic
 - [CSS](https://jigsaw.w3.org/css-validator/validator)
-- [JSLint](https://www.jslint.com/)
+    No errors found
 - Manual testing
+    The website was extensively manually tested on different devices in the developing process.
+    The user stories were followed and bugs fixed as I came across them in development.
 
 ## Deployment
 ---

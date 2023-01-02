@@ -327,6 +327,14 @@ input[name='q']::placeholder {
         padding-top: 250px;
     }
 
+    .nav-link {
+        font-size: 12px !important;
+    }
+
+    .logo-font {
+        font-size: 35px;
+    }
+
     .color-picker {
         height: 120px;
         border-radius: 0px;
