@@ -140,8 +140,13 @@ Amazon S3 Buckets are used to store static files and media used across the websi
 - [CSS](https://jigsaw.w3.org/css-validator/validator)
     No errors found
 - Manual testing:
-    The website was extensively manually tested on different devices in the developing process.
-    The user stories were followed and bugs fixed as I came across them in development.
+    The website was extensively manually tested on different devices in the developing process. The user stories were followed and bugs fixed as I came across them in development. 
+
+    1. Browsing the products using the navigation links and adjusting the order to see if the products re-arrange on the page.
+    1. Filtering by colour by clicking on the wool colour, both on home page as on the products page.
+    1. Go to About Us. Found and fixed bug to send email by clicking on emailaddress.
+    1. Test navigation menu on mobile. Bug found: no link to homepage once navigated away.
+
     Test Orders were completed, with many different possibilities and information entered to check whether it would throw errors.
     Bugs were fixed during the development process.
 
