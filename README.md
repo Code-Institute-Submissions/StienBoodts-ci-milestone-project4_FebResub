@@ -24,8 +24,6 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
 - #### **Frequent User Goals:**
 1. As a frequent user, I want to find out how I can get in touch with the maker for custom orders.
 
-### _Design_
-
 
 ## Features
 ---
@@ -36,8 +34,7 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
 
     <img src="media/screen3.png" width="500"/><br>
 
-    Covering user stories:
-    - As a first time user, I want to find out the purpose of the website immediately.
+    Covering user stories: As a first time user, I want to find out the purpose of the website immediately.
 
 
 - __Product Browsing and Filtering__
@@ -48,13 +45,12 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
     <img src="media/screen5.png" width="500"/><br>
     <img src="media/screen9.png" width="500"/><br>
 
-    Covering user stories:
-    -   As a returning user, I want to find out how I can search and filter for specific products.
+    Covering user stories: As a returning user, I want to find out how I can search and filter for specific products.
 
 
 - __User Accounts__
 
-    Users can log in to view their profile address details and previous orders
+    Users can log in to view their profile address details and previous orders.
 
     <img src="media/screen1.png" width="500"/><br>
 
@@ -68,17 +64,17 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
 - __Shopping Bag__
 
     Users can add products to bag and can view a snippet of the bag whenever new products are added.
+
     <img src="media/screen6.png" width="500"/><br>
 
-    Covering user stories:
-    -   As a first time user, I want to find out how I can buy the products and buy them.
+    Covering user stories: As a first time user, I want to find out how I can buy the products and buy them.
 
      <img src="media/screen7.png" width="500"/><br>
 
 
 - __About Page__
 
-    -   As a frequent user, I want to find out how I can get in touch with the maker for custom orders.
+    Covering user stories: As a frequent user, I want to find out how I can get in touch with the maker for custom orders.
 
      <img src="media/screen8.png" width="500"/><br>
 
@@ -88,6 +84,20 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
 - __Custom order form__
 
     A specific order form where users can make custom orders.
+
+## Data Structure
+---
+
+The data for the website is stored in 2 places
+
+[Elephant SQL](https://www.elephantsql.com/):
+
+The database is migrated and stored with ElephantSQL. (see deployment section)
+It consists of databases Categories and Products, but also all necessary data for the users, orders and authentication procedures.
+
+[AWS S3](https://aws.amazon.com):
+
+Amazon S3 Buckets are used to store static files and media used across the website.
 
 ## Technologies Used
 ---
@@ -107,17 +117,19 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
 1. [Bootstrap:](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
     - Bootstrap was used on parts of the website to make them responsive.
 1. [Gitpod:](https://gitpod.io/workspaces)
-    - Gitpod workspaces was used to create and edit code and push them onto the Github repo.
+    - Gitpod workspace was used to create and edit code and push them onto the Github repo.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from the Gitpod.
+    - GitHub is used to store the projects code after being pushed from Gitpod.
+1. [Heroku](https://www.heroku.com/)
+    - Heroku is used to deploy and host the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on to add float effect on buttons.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts was used to import the 'Montserrat' and 'Nothing You Could Do' (logo) fonts into the style.css file which are used on all pages.
+    - Google fonts was used to import the 'Comfortaa' font into the style.css file.
 1. [Elephant SQL](https://www.elephantsql.com)
-    - Elephant SQL is used to host the database
+    - Elephant SQL is used to host the database.
 1. [AWS](https://aws.amazon.com)
-    - Storing static files like images and files
+    - AWS S3 is used to store static files like images and files.
 
 
 ## Testing 
@@ -141,7 +153,7 @@ This project was developed on Gitpod, committed to Git and pushed onto the [Gith
 
 ##### Hosting of database on ElephantSQL
 
-1. log into Elephant SQL
+1. log into [Elephant SQL](https://www.elephantsql.com/)
 2. click 'Create New Instance'
 3. Give a name and choose the free 'Tiny Turtle' plan, tags can be left blank
 4. Select region closest to you
@@ -153,7 +165,7 @@ This project was developed on Gitpod, committed to Git and pushed onto the [Gith
 
 ##### Heroku set up for database
 
-1. log into Heroku
+1. log into [Heroku](https://www.heroku.com/)
 2. Click New to create a new app
 3. Give the app a name and select region closest to you
 4. Cick 'Create app'
