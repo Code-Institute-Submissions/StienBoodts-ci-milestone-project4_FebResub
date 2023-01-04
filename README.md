@@ -140,15 +140,21 @@ Amazon S3 Buckets are used to store static files and media used across the websi
 - [CSS](https://jigsaw.w3.org/css-validator/validator)
     No errors found
 - Manual testing:
-    The website was extensively manually tested on different devices in the developing process. The user stories were followed and bugs fixed as I came across them in development. 
+    The website was extensively manually tested on different devices in the developing process. The user stories were followed and bugs fixed as I came across them in development: 
 
-    1. Browsing the products using the navigation links and adjusting the order to see if the products re-arrange on the page.
-    1. Filtering by colour by clicking on the wool colour, both on home page as on the products page.
-    1. Go to About Us. Found and fixed bug to send email by clicking on emailaddress.
-    1. Test navigation menu on mobile. Bug found: no link to homepage once navigated away.
-
-    Test Orders were completed, with many different possibilities and information entered to check whether it would throw errors.
-    Bugs were fixed during the development process.
+    -   Browsed the products using the navigation links and adjusted the order to see if the products re-arrange on the page.
+    -   Filtered by colour by clicking on the wool colour, both on home page as on the products page.
+    -    Navigated to About Us. Found and fixed bug to send email by clicking on emailaddress.
+    -   Tested the navigation menu on mobile. Bug found: no link back to homepage. Fixed by adding a 'Home' link in the hamburger menu.
+    -   Logged in as admin, tested CRUD functionality on products and changed personal details to see if they save correctly.
+    -   Registered a new account to see if registration emails are received. 
+    Clicked on the confirmation link provided to confirm address. Checked Django backend to see if confirmation came through.
+    -   Navigated to profile page to see if previous orders show up correctly.
+    -   Test Orders were completed, with many different possibilities and information entered to check whether it would throw errors.
+    Bug found: images not showing correctly in 'add to cart' toast and on checkout page. The issue was an incorrect url to the image files. The bug was fixed.
+    There was also an issue with totals not coming through in the backend, this was a small bug in the signals and has been fixed.
+    
+    Many smaller bugs were fixed during the development process as I came across them. One of the big issues after deployment was the URLs to the static files on the AWS server. After plenty of digging I finally managed to get the urls linked up correctly.
 
 ## Deployment
 ---
@@ -206,7 +212,7 @@ This project was developed on Gitpod, committed to Git and pushed onto the [Gith
 9. push changes to heroku main
 
 
-##### set up automatic deployment in Heroku when pushing to Github
+##### Set up automatic deployment in Heroku when pushing to Github
 1. Go to app in Heroku and navigate to deploy tab
 2. Click Connect to github, Search for the repo and Click Connect
 3. Enable automatic deploys
