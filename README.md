@@ -37,7 +37,7 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
     <img src="media/screen3.png" width="500"/><br>
 
     Covering user stories:
-    1. As a first time user, I want to find out the purpose of the website immediately.
+    - As a first time user, I want to find out the purpose of the website immediately.
 
 
 - __Product Browsing and Filtering__
@@ -49,7 +49,7 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
     <img src="media/screen9.png" width="500"/><br>
 
     Covering user stories:
-    1. As a returning user, I want to find out how I can search and filter for specific products.
+    -   As a returning user, I want to find out how I can search and filter for specific products.
 
 
 - __User Accounts__
@@ -59,8 +59,8 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
     <img src="media/screen1.png" width="500"/><br>
 
     Covering user stories:
-    2. As a returning user, I want to access my profile and view previous orders.
-    3. As a returning user, I want to access my profile and edit info kept on file. 
+    -   As a returning user, I want to access my profile and view previous orders.
+    -   As a returning user, I want to access my profile and edit info kept on file. 
 
     <img src="media/screen2.png" width="500"/><br>
 
@@ -71,14 +71,14 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
     <img src="media/screen6.png" width="500"/><br>
 
     Covering user stories:
-    3. As a first time user, I want to find out how I can buy the products and buy them.
+    -   As a first time user, I want to find out how I can buy the products and buy them.
 
      <img src="media/screen7.png" width="500"/><br>
 
 
 - __About Page__
 
-    1. As a frequent user, I want to find out how I can get in touch with the maker for custom orders.
+    -   As a frequent user, I want to find out how I can get in touch with the maker for custom orders.
 
      <img src="media/screen8.png" width="500"/><br>
 
@@ -127,9 +127,11 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
     No errors, with exception of template logic
 - [CSS](https://jigsaw.w3.org/css-validator/validator)
     No errors found
-- Manual testing
+- Manual testing:
     The website was extensively manually tested on different devices in the developing process.
     The user stories were followed and bugs fixed as I came across them in development.
+    Test Orders were completed, with many different possibilities and information entered to check whether it would throw errors.
+    Bugs were fixed during the development process.
 
 ## Deployment
 ---
@@ -209,4 +211,4 @@ This project was developed on Gitpod, committed to Git and pushed onto the [Gith
 ### _Media_
 
 
-1. Developers own> :)
+1. Developers own :)
