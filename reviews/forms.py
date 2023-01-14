@@ -14,8 +14,8 @@ class ReviewForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         products = Product.objects.all()
-        friendly_names = [(c.id, c.get_friendly_name()) for c in categories]
+        name = [(c.id, c.name) for c in products]
 
-        self.fields['product'].choices = friendly_names
+        self.fields['product'].choices = name
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
