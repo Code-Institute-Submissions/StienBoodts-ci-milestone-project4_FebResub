@@ -130,6 +130,14 @@ input[name='q']::placeholder {
     color: #aab7c4
 }
 
+.reviews-title {
+    text-align: center;
+}
+
+.no-reviews-text {
+    text-align: center;
+}
+
 
 /* ------------------------------- bootstrap toasts */
 
@@ -302,6 +310,13 @@ input[name='q']::placeholder {
 
     .header-container {
         padding-top: 165px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .product-review-image {
+        padding-top: 30px;
     }
 
 }
