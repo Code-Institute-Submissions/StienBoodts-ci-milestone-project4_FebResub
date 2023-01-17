@@ -73,6 +73,55 @@
                 </div>
             </div>
         </div>
+        <hr>
+        <div class="row">
+            <div class="col-12">
+                <p class="text-muted text-center mt-4">Your Reviews</p>
+                {% for review in reviews %}
+                    {% if request.user == review.user %}
+                        {% if reviews|length > 0 %}
+                            <div class="col-sm-6 col-md-8 offset-md-2">
+                                <div class="card h-100 mb-3" style="max-width: 800px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4 product-review-image">
+                                            {% if review.image %}
+                                                <img src="{{ MEDIA_URL }}{{ review.image }}" class="card-img-top" alt="{{ review.title }}">
+                                            {% else %}
+                                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ review.title }}">
+                                            {% endif %}
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle m-2 text-muted">{{ review.product }}</h6>
+                                                <h5 class="card-title">{{ review.title }}</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted">by {{ review.user }} on {{ review.review_date }}</h6>
+                                                <p class="card-text">{{ review.description }}</p>
+                                                <p>Rating: {{ review.rating }} stars </p>
+                                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <small class="ml-3">
+                                                                <a href="{% url 'edit_review' review.id %}">Edit</a> | 
+                                                                <a class="text-danger" href="{% url 'delete_review' review.id %}">Delete</a>
+                                                            </small>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% else %}
+                            <p class="no-reviews-text">
+                                We'd love to hear what you think! Write your first review! <br>
+                                <a href="{% url 'add_review' %}" type="button" class="btn btn-dark mt-3">Leave a review</a>
+                            </p>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
     </div>
 {% endblock %}
 

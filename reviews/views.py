@@ -46,7 +46,7 @@ def review_detail(request, product_id):
         'product': product,
     }
     
-    return render(request, 'review/product_reviews.html', context)
+    return render(request, 'products.html', context)
 
 @login_required
 def add_review(request):
@@ -57,10 +57,11 @@ def add_review(request):
 
     if request.method == 'POST':
         form = ReviewForm(request.POST, request.FILES)
+        form.instance.user = request.user
         if form.is_valid():
             review = form.save()
-            messages.success(request, 'Successfully added review!')
-            return redirect(reverse('review_detail', args=[review.id]))
+            messages.success(request, 'Thank you! Successfully added review!')
+            return redirect(reverse('products'))
         else:
             messages.error(request, 'Failed to add review. Please ensure the form is valid.')
     else:
