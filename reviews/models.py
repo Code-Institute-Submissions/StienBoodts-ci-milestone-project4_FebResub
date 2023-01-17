@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.core.validators import MinValueValidator, MaxValueValidator
 from products.models import Product
 
 
@@ -10,7 +11,8 @@ class Review(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     title =  models.TextField(max_length=100)
     description = models.TextField()
-    rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    rating = models.IntegerField(validators=[MinValueValidator(0),
+                                       MaxValueValidator(5)], null=True)
     image = models.ImageField(null=True, blank=True)
     review_date = models.DateTimeField(auto_now_add=True, verbose_name='Review Date') 
 
