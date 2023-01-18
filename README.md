@@ -142,17 +142,17 @@ Amazon S3 Buckets are used to store static files and media used across the websi
 - Manual testing:
     The website was extensively manually tested on different devices in the developing process. The user stories were followed and bugs fixed as I came across them in development: 
 
-    -   Browsed the products using the navigation links and adjusted the order to see if the products re-arrange on the page.
-    -   Filtered by colour by clicking on the wool colour, both on home page as on the products page.
-    -    Navigated to About Us. Found and fixed bug to send email by clicking on emailaddress.
-    -   Tested the navigation menu on mobile. Bug found: no link back to homepage. Fixed by adding a 'Home' link in the hamburger menu.
-    -   Logged in as admin, tested CRUD functionality on products and changed personal details to see if they save correctly.
-    -   Registered a new account to see if registration emails are received. 
-    Clicked on the confirmation link provided to confirm address. Checked Django backend to see if confirmation came through.
-    -   Navigated to profile page to see if previous orders show up correctly.
+    -   I bowsed the products using the navigation links and adjusted the order to see if the products re-arrange on the page.
+    -   I filtered by colour by clicking on the wool colour, both on home page as on the products page.
+    -   I navigated to About Us. Found and fixed bug to send email by clicking on emailaddress.
+    -   Later I tested the navigation menu on mobile. A bug was found: there was no link back to homepage. Tis was fixed by adding a 'Home' link in the hamburger menu.
+    -   I logged in as admin, tested CRUD functionality on products and changed personal details to see if they save correctly.
+    -   I registered a new account to see if registration emails are sent. Then I clicked on the confirmation link provided to confirm the address. Django's backend was checked to see if the confirmation came through.
+    -   I navigated to the profile page to see if previous orders show up correctly.
     -   Test Orders were completed, with many different possibilities and information entered to check whether it would throw errors.
-    Bug found: images not showing correctly in 'add to cart' toast and on checkout page. The issue was an incorrect url to the image files. The bug was fixed.
+    A bug was found: images were not showing correctly in the 'add to cart' toast and on the checkout page. The issue was an incorrect url to the image files. The bug was fixed.
     There was also an issue with totals not coming through in the backend, this was a small bug in the signals and has been fixed.
+    - Reviews were tested for CRUD functionality by logging in and leaving reviews. Then checking the profile and product to see if they were showing correctly. Edit and delete functionality was tested. Then logged out and in as different user to see how the reviews behaved. An issue with the rating was solved, the review model was adjusted so there was a maximum rating of 5 allowed.
     
     Many smaller bugs were fixed during the development process as I came across them. One of the big issues after deployment was the URLs to the static files on the AWS server. After plenty of digging I finally managed to get the urls linked up correctly.
 
