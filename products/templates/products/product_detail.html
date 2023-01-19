@@ -96,6 +96,8 @@
                                 </a>
                                 <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
                             </div>
+                            <a href="{% url 'add_favourite' product.id %}" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Favourites">Add to Favourites</a>
+                            <a href="{% url 'delete_favourite' product.id %}" class="btn btn-black rounded-0 text-uppercase mt-5" value="Delete from Favourites">Delete from Favourites</a>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
                         </div> 

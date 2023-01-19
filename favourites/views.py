@@ -1,29 +1,35 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.contrib.auth.models import User
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
-from .models import Product
+from products.models import Product
+from profiles.models import UserProfile
+from .models import Favourite
 
 # Create your views here.
 
-def all_favourites(request):
+def favourites(request):
     """ A view to show all favourite products """
     
-    favourites = Favourite.objects.all()
+    user = get_object_or_404(User, user=request.user)
+    favourites = Favourite.objects.filter(user=user)
 
     context = {
         'favourites': favourites,
     }
 
-    return render(request, 'favourites' , context)
+    return render(request, 'favourites.html', context)
 
 
 @login_required
 def add_favourite(request, product_id):
     """ Add a product as a favourite """
 
+    user = request.user
     product = get_object_or_404(Product, pk=product_id)
-    Favourite.objects.create(user_profile=user, product=product)
+
+    Favourite.objects.create(user=user, product=product)
 
     return redirect(reverse('product_detail', args=[product_id]))
 
@@ -32,7 +38,7 @@ def add_favourite(request, product_id):
 def delete_favourite(request, product_id):
     """ Delete a favourite product """
 
-    user = get_object_or_404(UserProfile, user=request.user)
+    user = request.user
     product = get_object_or_404(Product, pk=product_id)
     
     Favourite.objects.filter(product=product, user=user).delete()

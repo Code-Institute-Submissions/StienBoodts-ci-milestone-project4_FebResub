@@ -6,6 +6,8 @@ from django.db.models.functions import Lower
 
 from reviews.models import Review
 from .models import Product, Category
+from favourites.models import Favourite
+from favourites.views import add_favourite, delete_favourite
 from .forms import ProductForm
 
 # Create your views here.
