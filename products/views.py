@@ -74,10 +74,19 @@ def product_detail(request, product_id):
     
     product = get_object_or_404(Product, pk=product_id)
     reviews = Review.objects.filter(product=product_id)
+    user = request.user
+    favourite = False
+
+    if Favourite.objects.filter(product=product, user=user).exists():
+        favourite = True
+    else:
+        favourite = False
 
     context = {
         'product': product,
         'reviews': reviews,
+        'user': user,
+        'favourite': favourite,
     }
     
     return render(request, 'products/product_detail.html', context)
@@ -147,3 +156,4 @@ def delete_product(request, product_id):
     messages.success(request, 'Product deleted!')
 
     return redirect(reverse('products'))
+

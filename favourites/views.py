@@ -28,8 +28,12 @@ def add_favourite(request, product_id):
 
     user = request.user
     product = get_object_or_404(Product, pk=product_id)
+    favourites = Favourite.objects.filter(user=user)
 
     Favourite.objects.create(user=user, product=product)
+    
+    messages.success(request, f'{product.name} has been added to your favourites')
+
 
     return redirect(reverse('product_detail', args=[product_id]))
 
@@ -42,5 +46,8 @@ def delete_favourite(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     
     Favourite.objects.filter(product=product, user=user).delete()
+
+    messages.error(request, f'{product.name} has been deleted from your favourites')
+
 
     return redirect(reverse('product_detail', args=[product.id]))
