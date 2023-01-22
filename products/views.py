@@ -74,10 +74,10 @@ def product_detail(request, product_id):
     
     product = get_object_or_404(Product, pk=product_id)
     reviews = Review.objects.filter(product=product_id)
-    user = request.user
     favourite = False
 
     if request.user.is_authenticated:
+        user = request.user
         if Favourite.objects.filter(product=product, user=user).exists():
             favourite = True
         else:
