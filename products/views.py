@@ -77,8 +77,7 @@ def product_detail(request, product_id):
     favourite = False
 
     if request.user.is_authenticated:
-        user = request.user
-        if Favourite.objects.filter(product=product, user=user).exists():
+        if Favourite.objects.filter(product=product, user=request.user).exists():
             favourite = True
         else:
             favourite = False
