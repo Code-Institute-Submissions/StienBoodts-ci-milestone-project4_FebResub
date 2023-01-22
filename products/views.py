@@ -77,10 +77,11 @@ def product_detail(request, product_id):
     user = request.user
     favourite = False
 
-    if Favourite.objects.filter(product=product, user=user).exists():
-        favourite = True
-    else:
-        favourite = False
+    if request.user.is_authenticated:
+        if Favourite.objects.filter(product=product, user=user).exists():
+            favourite = True
+        else:
+            favourite = False
 
     context = {
         'product': product,
