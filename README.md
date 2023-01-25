@@ -20,9 +20,12 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
 1. As a returning user, I want to find out how I can search and filter for specific products.
 2. As a returning user, I want to access my profile and view previous orders.
 3. As a returning user, I want to access my profile and edit info kept on file.
+4. As a returning user, I want to save my favourite products.
 
 - #### **Frequent User Goals:**
+1. As a frequent user, I want to be able to write or read a review about a product.
 1. As a frequent user, I want to find out how I can get in touch with the maker for custom orders.
+
 
 ## Design
 ---
@@ -66,7 +69,13 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
     <img src="media/screen5.png" width="500"/><br>
     <img src="media/screen9.png" width="500"/><br>
 
-    Covering user stories: As a returning user, I want to find out how I can search and filter for specific products.
+    Covering user stories: 
+    -   As a first time user, I want to find out what products are available.
+    -   As a returning user, I want to find out how I can search and filter for specific products.
+    -   As a returning user, I want to save my favourite products.
+    -   As a frequent user, I want to be able to write or read a review about a product.
+
+    <img src="media/screen11.jpg" width="500"/><br>
 
 
 - __User Accounts__
@@ -80,6 +89,12 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
     -   As a returning user, I want to access my profile and edit info kept on file. 
 
     <img src="media/screen2.png" width="500"/><br>
+
+    Covering user stories:
+    -   As a returning user, I want to save my favourite products.
+    -   As a frequent user, I want to be able to leave a review about a product.
+
+     <img src="media/screen10.jpg" width="500"/><br>   
 
 
 - __Shopping Bag__
@@ -119,6 +134,10 @@ It consists of databases Categories and Products, but also all necessary data fo
 [AWS S3](https://aws.amazon.com):
 
 Amazon S3 Buckets are used to store static files and media used across the website.
+
+### _Database models_
+
+<img src="media/dbmodels.jpg" width="800"/><br>
 
 ## Technologies Used
 ---
