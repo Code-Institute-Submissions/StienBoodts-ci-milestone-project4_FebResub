@@ -24,6 +24,27 @@ This website was based on the walk through project 'Boutique Ado' by [Code Insti
 - #### **Frequent User Goals:**
 1. As a frequent user, I want to find out how I can get in touch with the maker for custom orders.
 
+## Design
+---
+
+- #### **Typography**
+
+    <strong>Choice of font:</strong> Comfortaa, [Google Fonts](https://fonts.google.com/). Easy to read, clear but not boring. Headings: same font was used but capitalised.<br>
+
+- #### **Colourscheme**
+
+    For clarity a simple black and white colour theme was chosen with accents in red. 
+    As the knitwear comes in so many beautiful colours, I felt the use of colour in the design of the website would distract from the product sold. Instead I kept it minimalistic.
+    This aids the customer in navigating around the site and chosing their favourite product colours.
+   
+
+- #### **Wireframes**
+
+    <img src="media/wireframes.jpg" width="800"/><br>
+
+    Wireframes for homepage, products and profile page.
+    Made with [Mockflow](https://wireframepro.mockflow.com/).
+
 
 ## Features
 ---
