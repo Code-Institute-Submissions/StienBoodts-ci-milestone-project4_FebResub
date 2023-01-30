@@ -21,6 +21,10 @@ body {
     width: 1.5rem;
 }
 
+.logo {
+    height: 5rem;
+}
+
 .logo-font {
     text-transform: uppercase;
     font-family: 'Comfortaa', cursive;
@@ -309,7 +313,7 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 165px;
+        padding-top: 200px;
     }
 
 }

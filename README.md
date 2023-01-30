@@ -36,6 +36,13 @@ This website was built with the help of the walk through project 'Boutique Ado' 
 # User Experience
 
 
+## _Strategy_
+
+Seafoam Winter is a B2C e-commerce website, where creator/knitter Stien can offer her knitwear to potential customers. In return, the store owner can receive reviews from customers to add social proof. The customers can shop in a unique way by selecting their favourite colour on the homepage. In only 3 clicks from the homepage, their favourite hat can be in their shopping bag ready for purchase.
+
+
+
+
 ## _User Stories_
 
 - ### **First Time Visitor Goals:**
@@ -252,6 +259,7 @@ The website was extensively manually tested on different devices in the developi
 A bug was found: images were not showing correctly in the 'add to cart' toast and on the checkout page. The issue was an incorrect url to the image files. The bug was fixed.
 There was also an issue with totals not coming through in the backend, this was a small bug in the signals and has been fixed.
 - Reviews were tested for CRUD functionality by logging in and leaving reviews. Then checking the profile and product to see if they were showing correctly. Edit and delete functionality was tested. Then logged out and in as different user to see how the reviews behaved. An issue with the rating was solved, the review model was adjusted so there was a maximum rating of 5 allowed.
+- While testing the reviews, I realised that if some one left bad reviews on purpose or as some kind of spam, the shop owner would have no ability to review or delete these. So I added the CRUD ability of the reviews to the superusers as well.
 - Products were added to favourites and viewed on the profile page. There was an issue with repeat addition to the list and the styling of the heart icon. But after many trial runs it finally worked as it should. The heart is filled when the product is in the user's favourites and not filled when deleted or not yet added. The user gets the appropriate message when added or deleted. When a user is not signed in and presses the icon, they are redirected to the sign in page. 
 
 Many smaller bugs were fixed during the development process as I came across them. One of the big issues after deployment was the URLs to the static files on the AWS server. After plenty of digging I finally managed to get the urls linked up correctly.
