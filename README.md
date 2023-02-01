@@ -307,7 +307,7 @@ Made with [Mockflow](https://wireframepro.mockflow.com/).
 
 - [HTML](https://jigsaw.w3.org/css-validator/#validate_by_input)
     No errors, with exception of template logic
-- [CSS](https://jigsaw.w3.org/css-validator/validator)
+- [CSS](https://jigsaw.w3.org/css-validator/)
     No errors found
 - [Python Checker](https://www.pythonchecker.com)
     Python Checker was used to check if code is PEP8 compliant
