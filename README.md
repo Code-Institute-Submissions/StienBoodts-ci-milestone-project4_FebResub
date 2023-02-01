@@ -5,6 +5,8 @@ The seller can showcase her handmade knitwear and offer a wide range of choices 
 
 Seafoam winter is created as my final milestone project for the Level 5 Diploma in Web Application Development by Code Institute. This website was built with the help of the walk through project 'Boutique Ado' by [Code Institute](https://codeinstitute.net/).
 
+The deployed website can be found here: [Seafoam Winter](https://seafoam-winter.herokuapp.com/).
+
 <img src="media/mockup.jpg" width="800"/><br>
 
 ## **Table of Contents:**
