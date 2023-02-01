@@ -2,14 +2,16 @@
 
 This website offers visitors the chance to browse and buy knitwear made by Belgian/Welsh knitter Stien. Visitors can also create a user profile, leave reviews and add products to their favourites.
 The seller can showcase her handmade knitwear and offer a wide range of choices to the user.
-This website was built with the help of the walk through project 'Boutique Ado' by [Code Institute](https://codeinstitute.net/).
 
-<img src="media/mockup.jpg" width="500"/><br>
+Seafoam winter is created as my final milestone project for the Level 5 Diploma in Full Stack Web App Development by Code Institute. This website was built with the help of the walk through project 'Boutique Ado' by [Code Institute](https://codeinstitute.net/).
+
+<img src="media/mockup.jpg" width="800"/><br>
 
 ## **Table of Contents:**
 ---
 
 - [User Experience (UX)](#user-experience)
+    - [Strategy](#strategy)
     - [User Stories](#user-stories)
     - [Design](#design)
     - [Wireframes](#wireframes)
@@ -38,12 +40,45 @@ This website was built with the help of the walk through project 'Boutique Ado' 
 
 ## _Strategy_
 
-Seafoam Winter is a B2C e-commerce website, where creator/knitter Stien can offer her knitwear to potential customers. In return, the store owner can receive reviews from customers to add social proof. The customers can shop in a unique way by selecting their favourite colour on the homepage. In only 3 clicks from the homepage, their favourite hat can be in their shopping bag ready for purchase.
+Seafoam Winter is a B2C e-commerce website, where creator/knitter Stien can offer her knitwear to potential customers. In return, the store owner can receive reviews from customers to add social proof. The customers can shop in a unique way by selecting their favourite colour on the homepage. In only 3 clicks from the homepage, the customer's product of choice can be in their shopping bag ready for purchase.
 
 
+## _Scope_
 
 
-## _User Stories_
+Possible features were rated in order of importance and viability (1-5 with 5 as most important/viable). 
+The highest scorers were recognised as MVP's and were prioritised. 
+Features that were delivered can also be viewed [here](#features).
+
+| Feature | Importance | Viability | MVP | Delivered |
+| --- | --- | --- | --- | --- |
+| **User Features** | | | | |
+| Collection Page | 5 | 5 | MVP | ✅ |
+| Product Page | 5 | 5 | MVP | ✅ |
+| Shopping Cart | 5 | 5 | MVP | ✅ |
+| Checkout/Payments | 5 | 5 | MVP | ✅ |
+| User Account | 5 | 5 | MVP | ✅ |
+| Profile Page | 4 | 5 | | ✅ |
+| Order History | 4 | 5 | | ✅ |
+| Reviews | 3 | 4 | | ✅ |
+| Favourites | 3 | 3 | | ✅ |
+| Sorting | 4 | 5 | | ✅ |
+| Filtering and searching | 4 | 5 | | ✅ |
+| Custom Order Page | 3 | 4 | | |
+| Contact Page | 4 | 5 | | ✅ |
+| **Shop Owner Features** | | | | |
+| CRUD functionality on products | 5 | 5 | MVP | ✅ |
+| View Orders | 5 | 5 | MVP | ✅ |
+| View Users (CRUD) | 5 | 5 | MVP | ✅ |
+| Delete Unwanted Reviews | 4 | 5 |  | ✅ |
+| Blog Page | 3 | 3 |  | |
+
+
+## _Structure_
+
+
+### **User Stories**
+
 
 - ### **First Time Visitor Goals:**
 1. As a first time user, I want to find out the purpose of the website immediately.
@@ -66,7 +101,57 @@ Seafoam Winter is a B2C e-commerce website, where creator/knitter Stien can offe
 1. As the store owner, I want to be able to edit and delete all reviews to avoid spam.
 
 
-## _Design_
+### **Data Structure**
+
+
+The data for the website is stored in 2 places
+
+[Elephant SQL](https://www.elephantsql.com/):
+
+The database is migrated and stored with ElephantSQL. (see deployment section)
+It consists of databases Categories and Products, but also all necessary data for the users, orders and authentication procedures.
+
+[AWS S3](https://aws.amazon.com):
+
+Amazon S3 Buckets are used to store static files and media used across the website.
+
+
+### **Database models**
+
+
+There are 8 models on which the website runs:
+
+-   Products: contains the details of each product.
+-   Category: enables the sorting of products in categories.
+-   UserProfile: contains user information such as delivery address.
+-   User: Django's own model linked to other models such as UserProfile, Reviews and Favourites.
+-   Order: contains the order information. This is linked to the UserProfile, so users can view their previous order on their profile page.
+-   OrderLineItems: contains the products per order.
+-   Reviews: enables the user to leave a review on a product.
+-   Favourites: linked to user and product, so users can add a specific product to their favourites.
+
+
+<img src="media/dbmodels.jpg" width="800"/><br>
+
+[Back to top](#table-of-contents)
+
+
+## _Skeleton_
+
+
+### _Wireframes_
+
+
+<img src="media/wireframes.jpg" width="800"/><br>
+
+Wireframes for homepage, products and profile page.
+Made with [Mockflow](https://wireframepro.mockflow.com/).
+
+[Back to top](#table-of-contents)
+
+
+## _Surface_
+
 
 - ### **Typography**
 
@@ -77,16 +162,20 @@ Seafoam Winter is a B2C e-commerce website, where creator/knitter Stien can offe
 
     For clarity a simple black and white colour theme was chosen with accents in red, to draw attention. (e.g. shipping info on homepage) 
     As the knitwear comes in so many beautiful colours, I felt the use of colour in the design of the website would distract from the product sold, or even clash with the product colours. Instead I kept it rather minimalistic. This aids the customer in navigating around the site and chosing their favourite product colours easily.
-   
 
-## _Wireframes_
+- ### **Images**
 
-<img src="media/wireframes.jpg" width="800"/><br>
+    On the homepage the logo is visible in the header, but not too overpowering.
+    <img src="media/logo.jpg" width="500"/><br>
 
-Wireframes for homepage, products and profile page.
-Made with [Mockflow](https://wireframepro.mockflow.com/).
+    There is a hero image with focus on the thickness, softness and colour of the wool.
+    The selling points of the knitwear sold on the website.
+    <img src="media/hero.png" width="500"/><br>
 
-[Back to top](#table-of-contents)
+    Product images are kept uniform across the webstore with nearly all the same background,
+    as to keep the focus on the product itself.
+    <img src="media/images.png" width="500"/><br>
+
 
 ## _Features_
 
@@ -165,36 +254,7 @@ Made with [Mockflow](https://wireframepro.mockflow.com/).
 [Back to top](#table-of-contents)
 
 
-# Data Structure
 
-The data for the website is stored in 2 places
-
-[Elephant SQL](https://www.elephantsql.com/):
-
-The database is migrated and stored with ElephantSQL. (see deployment section)
-It consists of databases Categories and Products, but also all necessary data for the users, orders and authentication procedures.
-
-[AWS S3](https://aws.amazon.com):
-
-Amazon S3 Buckets are used to store static files and media used across the website.
-
-## _Database models_
-
-There are 8 models on which the website runs:
-
--   Products: contains the details of each product.
--   Category: enables the sorting of products in categories.
--   UserProfile: contains user information such as delivery address.
--   User: Django's own model linked to other models such as UserProfile, Reviews and Favourites.
--   Order: contains the order information. This is linked to the UserProfile, so users can view their previous order on their profile page.
--   OrderLineItems: contains the products per order.
--   Reviews: enables the user to leave a review on a product.
--   Favourites: linked to user and product, so users can add a specific product to their favourites.
-
-
-<img src="media/dbmodels.jpg" width="800"/><br>
-
-[Back to top](#table-of-contents)
 
 # Technologies Used
 
