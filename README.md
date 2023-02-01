@@ -3,7 +3,7 @@
 This website offers visitors the chance to browse and buy knitwear made by Belgian/Welsh knitter Stien. Visitors can also create a user profile, leave reviews and add products to their favourites.
 The seller can showcase her handmade knitwear and offer a wide range of choices to the user.
 
-Seafoam winter is created as my final milestone project for the Level 5 Diploma in Full Stack Web App Development by Code Institute. This website was built with the help of the walk through project 'Boutique Ado' by [Code Institute](https://codeinstitute.net/).
+Seafoam winter is created as my final milestone project for the Level 5 Diploma in Web Application Development by Code Institute. This website was built with the help of the walk through project 'Boutique Ado' by [Code Institute](https://codeinstitute.net/).
 
 <img src="media/mockup.jpg" width="800"/><br>
 
@@ -12,12 +12,11 @@ Seafoam winter is created as my final milestone project for the Level 5 Diploma 
 
 - [User Experience (UX)](#user-experience)
     - [Strategy](#strategy)
-    - [User Stories](#user-stories)
-    - [Design](#design)
-    - [Wireframes](#wireframes)
-    - [Features](#features)
-- [Data Structure](#data-structure)
-    - [Database Models](#database-models)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+    - [Surface](#surface)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
@@ -73,6 +72,7 @@ Features that were delivered can also be viewed [here](#features).
 | Delete Unwanted Reviews | 4 | 5 |  | ✅ |
 | Blog Page | 3 | 3 |  | |
 
+[Back to top](#table-of-contents)
 
 ## _Structure_
 
@@ -99,6 +99,8 @@ Features that were delivered can also be viewed [here](#features).
 1. As the store owner, I want to showcase my products to potential customers.
 1. As the store owner, I want visitors to be able to buy my product.
 1. As the store owner, I want to be able to edit and delete all reviews to avoid spam.
+
+[Back to top](#table-of-contents)
 
 
 ### **Data Structure**
@@ -142,9 +144,9 @@ There are 8 models on which the website runs:
 ### _Wireframes_
 
 
-<img src="media/wireframes.jpg" width="800"/><br>
+<img src="media/wireframes.png" width="800"/><br>
 
-Wireframes for homepage, products and profile page.
+Wireframes for homepage, products, profile page and shopping cart.
 Made with [Mockflow](https://wireframepro.mockflow.com/).
 
 [Back to top](#table-of-contents)
@@ -166,15 +168,21 @@ Made with [Mockflow](https://wireframepro.mockflow.com/).
 - ### **Images**
 
     On the homepage the logo is visible in the header, but not too overpowering.
+
     <img src="media/logo.jpg" width="500"/><br>
 
     There is a hero image with focus on the thickness, softness and colour of the wool.
     The selling points of the knitwear sold on the website.
+
     <img src="media/hero.png" width="500"/><br>
 
-    Product images are kept uniform across the webstore with nearly all the same background,
-    as to keep the focus on the product itself.
+    Product images are kept uniform across the webstore with mostly the same background,
+    to keep the focus on the product itself.
+
     <img src="media/images.png" width="500"/><br>
+
+
+[Back to top](#table-of-contents)
 
 
 ## _Features_
